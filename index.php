@@ -46,7 +46,7 @@
   
 <!--WHY WE-->
 <center>
-<div class="container">
+<div class="container" id="mt-10">
   <div class="row">
     <div class="col-md-5">
       <img src="https://www.photoshop-master.ru/lessons/les1375/1.jpg" class="imageAfterHeader">
