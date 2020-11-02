@@ -32,7 +32,11 @@
 
 
 
-  <div class="block_red"><h2 class="UnApp"><a href="index.php" class="text">FbShoes</a></h2></div>
+  <div class="block_red">
+  	<h2 class="UnApp">
+  		<a href="index.php" class="text" style="font-family: CENTURY GOTHIC,sans-serif;">FbShoes</a>
+  	</h2>
+  </div>
 
           
           
