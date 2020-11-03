@@ -56,7 +56,7 @@
       <h1 class="h1_after_header">Why We?</h1>
       <p>Girl quit if case mr sing as no have. Made neat an on be gave show snug tore. In expression an solicitude principles in do. At principle perfectly by sweetness do. Strictly numerous outlived kindness whatever on we no on addition. Strictly numerous outlived kindness whatever on we no on addition. Secure shy favour length all</p>
       <div class="block_buttons" >
-      <a href="#" class="buttons" id="buttons" class="float-right">Read More</a>
+      <a href="" class="float-right" id="buttonss">Read More</a>
       </div>
      </div>
     </div>
@@ -150,22 +150,7 @@ Expression alteration entreaties mrs can terminated estimating. Small for ask sh
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 
 <script type="text/javascript">
-  const buttons = document.getElementById("buttons");
-  
-    buttons.addEventListener('click', function(e) {
-      let x = e.clientX - e.target.offsetLeft;
-      let y = e.clientY - e.target.offsetTop;
 
-      let ripples = document.createElement('span');
-      ripples.style.left = x + 'px';
-      ripples.style.top = y + 'px';
-      this.appendChild(ripples);
-
-      setTimeout(() => {
-        ripples.remove()
-      },500);
-    })
-  
   //nav toggle click
   $(document).ready(function() {
   	$('#toggle').click(function() {
