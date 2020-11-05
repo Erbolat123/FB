@@ -20,11 +20,11 @@
 	<div class="overlay"></div>
 	<div class="menuu">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Feed Back</a></li>
-			<li><a href="#">Registration</a></li>
-			<li><a href="#">Service</a></li>
-			<li><a href="#">Buy</a></li>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="feed.php">Feed Back</a></li>
+			<li><a href="registration.php">Registration</a></li>
+			<li><a href="service.php">Service</a></li>
+			<li><a href="magazine.php">Buy</a></li>
 			<!-- <li><a href="#">Profile</a></li> -->
 		</ul>
 	</div>
@@ -34,7 +34,9 @@
 
   <div class="block_red">
   	<h2 class="UnApp">
-  		<a href="index.php" class="text" style="font-family: CENTURY GOTHIC,sans-serif;">FbShoes</a>
+  		<a href="index.php" class="text" style="font-family: CENTURY GOTHIC,sans-serif;">
+  			<img id="img_head" src="img/footwear.png" class="img_header">FbShoes
+  		</a>
   	</h2>
   </div>
 
@@ -49,7 +51,7 @@
 <div class="container" id="mt-10">
   <div class="row">
     <div class="col-md-5">
-      <img src="https://www.photoshop-master.ru/lessons/les1375/1.jpg" class="imageAfterHeader">
+      <img src="img/shoes_2.png" class="imageAfterHeader">
     </div>
     <div class="col-md-5">
      <div class="textAfterHeader">
@@ -164,6 +166,20 @@ Expression alteration entreaties mrs can terminated estimating. Small for ask sh
 
   	})
   })
+
+
+
+		//animation for football shoes 
+		 
+
+
+		document.body.onload = function() {
+			setTimeout(() => {
+        $('#img_head').toggleClass('keek');
+      },1000);
+		}
+				
+
 </script>
 </body>
 </html>

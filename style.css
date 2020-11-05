@@ -7,6 +7,7 @@
 body {
   background: #111;
 }
+
 /*header style*/
 #toggle {
 	position: fixed;
@@ -120,10 +121,38 @@ transform: scale(100,100);
 }
 .text:hover {
 	color: #fff;
-	padding-bottom: 19px;
 	padding-left: 10px;
 	text-shadow: -3px 3px #444;
 }
+#img_head {
+	transition: 1s ease;
+	opacity: 1;
+}
+.img_header {
+	mix-blend-mode: color-burn;
+	color: #111;
+}
+.text:hover #img_head {
+	margin-left: 0;
+}
+.keek {
+	animation: keek  1.3s ease;
+}
+@keyframes keek {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(90deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+/* CIRCLES */
+
+
+
 .UnApp {
   color: #fff;
   font-weight: 300;
@@ -137,7 +166,7 @@ font-size: calc(15px + 20 * (100vw/1440));
 }
 /* /header style */
 .block_red {
-  width: calc(90px + 80 * (100vw/1440));
+	width: calc(110px + 65 * (100vw/1440));
   border: 1px solid #e3394d;
   background-color: #e3394d;
   z-index: 0;
@@ -146,9 +175,7 @@ font-size: calc(15px + 20 * (100vw/1440));
 .imageAfterHeader {
   width: 100%;
   margin-top: 6%;
-  border-radius: 50%;
   object-fit: cover;
-  background-color: #777;
 }
 
 .textAfterHeader {
@@ -200,9 +227,9 @@ section {
   height: 100%;
   background: url(https://w-dog.ru/wallpapers/10/19/346843697827766.jpg);
   background-position: center;
-  background-color: #555;
-  margin-left: 10%;
   margin-right: -10%;
+  margin-left: 10%;
+  background-color: #555;
   background-blend-mode: soft-light;
   margin-bottom: 0;
 }
@@ -372,4 +399,7 @@ padding-bottom: 35px;
 }
 #mt-10 {
 	margin-top: 35px;
+}
+.form_h1 {
+	font-family: 
 }
