@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 <link rel="shortcut icon" href="img/mortarboard.png" type="image/png">
   <title>FbShoes</title>
 </head>
@@ -14,9 +14,11 @@
 
   <!--header-->
   <div class="list_1">
- 
+
+ <center>
 <header>
-	<div id="toggle"></div>
+	
+ <div id="toggle"></div>
 	<div class="overlay"></div>
 	<div class="menuu">
 		<ul>
@@ -28,24 +30,38 @@
 			<!-- <li><a href="#">Profile</a></li> -->
 		</ul>
 	</div>
- <center>
 
-
-
-  <div class="block_red">
+<div class="block_red">
   	<h2 class="UnApp">
-  		<a href="index.php" class="text" style="font-family: CENTURY GOTHIC,sans-serif;">
-  			<img id="img_head" src="img/footwear.png" class="img_header">FbShoes
+  		<a href="index.php" class="text" >
+  			FbShoes
   		</a>
   	</h2>
-  </div>
+</div>
 
-          
-          
+<h2>You need a <span>Shoes</span></h2>
+<p>If as increasing contrasted entreaties be. Took sold add play may none him few. Painful so he an comfort is manners. Draw fond rank form nor the day eat. If in so bred at dare rose lose good.</p>       
+<br><br>
 </header>
 </center>
   <!--/header-->
-  
+ 
+ <center>
+
+
+<!--ABOUT US -->
+
+<section>
+  <center>
+  <h2 class="h2_about" style="margin-bottom: 0;">About Us</h2>
+  <p>Indulgence contrasted sufficient to unpleasant in in insensible favourable. Bed uncommonly his discovered for estimating far. Whatever throwing we on resolved entrance together graceful.<br>
+
+Expression alteration entreaties mrs can terminated estimating. Small for ask shade water manor think men begin. In expression an solicitude principles in do. Steepest speaking up attended it as. Small for ask shade water manor think men begin. Uncommonly no it announcing melancholy an in. Ecstatic elegance gay but dispose</p>.
+</center>
+</section>
+<!-- /ABOUT US -->
+
+
 <!--WHY WE-->
 <center>
 <div class="container" id="mt-10">
@@ -66,20 +82,6 @@
 </div>
 </center>
 <!-- /WHY WE -->
-
-<!--ABOUT US -->
-
-<section>
-  <center>
-  <h2 class="h2_about" style="margin-bottom: 0;">About Us</h2>
-  <p>Indulgence contrasted sufficient to unpleasant in in insensible favourable. Bed uncommonly his discovered for estimating far. Whatever throwing we on resolved entrance together graceful.<br>
-
-Expression alteration entreaties mrs can terminated estimating. Small for ask shade water manor think men begin. In expression an solicitude principles in do. Steepest speaking up attended it as. Small for ask shade water manor think men begin. Uncommonly no it announcing melancholy an in. Ecstatic elegance gay but dispose</p>.
-</center>
-</section>
-<!-- /ABOUT US -->
-
-
 
 <!-- CARD -->
 <center>
@@ -173,11 +175,11 @@ Expression alteration entreaties mrs can terminated estimating. Small for ask sh
 		 
 
 
-		document.body.onload = function() {
-			setTimeout(() => {
-        $('#img_head').toggleClass('keek');
-      },1000);
-		}
+		// document.body.onload = function() {
+		// 	setTimeout(() => {
+  //       $('#img_head').toggleClass('keek');
+  //     },1000);
+		// }
 				
 
 </script>
